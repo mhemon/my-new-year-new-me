@@ -12,7 +12,7 @@
     text-align: end;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     /* background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: color; */
@@ -47,18 +47,18 @@
 .failure{
     margin-top: 80px;
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     text-align: start;
 }
 
-.failure-img{
-    height: 370px;
+.failure-img img{
+    height: 500px;
 }
 
 .failure-text h2{
-    margin-top: 200px;
+    margin-top: 80px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -67,12 +67,100 @@
     margin-top: 24px;
     margin-bottom: 16px;
     color: #444343;
-    width: 60%;
     font-size: 16px;
 }
 
 .failure h5{
     padding: 5px;
     font-size: 18px;
+}
+
+/* my-plan */
+
+.my-plan-container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-plan h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    
+}
+
+.my-plan h3{
+    padding: 5px;
+}
+
+/* positive mindset */
+
+.positive-container{
+    margin: 70px 15%;
+    padding: 50px;
+    border-radius: 8px;
+    background: url('../images/watch.png'),linear-gradient(to right, #F15B22, rgba(241, 93, 34, 0) 50%);
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+}
+
+.positive-container h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.positive-container button{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+    color: #F15B22;
+    border: none;
+}
+
+/* footer section */
+
+.footer-container{
+    padding: 50px;
+    background-color: black;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.future-block h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.future-block p{
+    font-size: 16px;
+}
+
+/* footer subs block */
+
+.subscribe-block input[type="email"]{
+    border-style: none;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+}
+
+.subscribe-block button{
+    padding: 10px;
+    width: 100px;
+    color: #F15B22;
+    border-radius: 5px;
 }
 
